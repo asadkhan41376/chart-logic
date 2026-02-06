@@ -146,7 +146,8 @@
   --heading-color: #0A0A10;
   --body-color: #6C6C6C;
   --purple-color: #936DFF;
-  --accent-color: #00CC61;
+  --green-color: #24824D;
+  --accent-color: #247C4C;
   --border-color: #CACACA;
   --gray-color: #F6F3FE;
   --gray2-color: #A3A2A3;
@@ -365,21 +366,21 @@ textarea {
 }
 .cs_preloader_in:after {
   border-color: transparent;
-  border-top-color: var(--purple-color);
-  border-bottom-color: var(--purple-color);
+  border-top-color: var(--green-color);
+  border-bottom-color: var(--green-color);
   opacity: 0.8;
   animation: spin 1s ease-in-out infinite;
   z-index: 2;
 }
 .cs_preloader_in:before {
-  border-color: var(--purple-color);
+  border-color: var(--green-color);
   opacity: 0.2;
 }
 .cs_preloader_in span {
   display: inline-block;
   width: 50px;
   height: 50px;
-  background-color: var(--purple-color);
+  background-color: var(--green-color);
   border-radius: 50%;
   position: absolute;
   left: 50%;
@@ -1742,7 +1743,7 @@ textarea {
 }
 
 .cs_purple_color {
-  color: var(--purple-color);
+  color: var(--green-color);
 }
 
 .cs_accent_color {
@@ -1758,7 +1759,7 @@ textarea {
 }
 
 .cs_purple_bg {
-  background-color: var(--purple-color);
+  background-color: var(--green-color);
 }
 
 .cs_body_bg {
@@ -2062,7 +2063,7 @@ hr {
   transition: all 0.3s ease;
 }
 .cs_btn.cs_style_1.cs_purple_hover::before {
-  background-color: var(--purple-color);
+  background-color: var(--green-color);
 }
 .cs_btn.cs_style_1.cs_accent_hover::before {
   background-color: var(--accent-color);
@@ -2188,7 +2189,7 @@ hr {
   margin-right: 5px;
 }
 .cs_social_links.cs_style_1 a:hover {
-  color: var(--purple-color);
+  color: var(--green-color);
 }
 
 /*-------------------------------
@@ -2631,7 +2632,7 @@ hr {
   height: 12px;
   width: 12px;
   border-radius: 2px;
-  background: var(--purple-color);
+  background: var(--green-color);
   opacity: 0.2;
   cursor: pointer;
   position: relative;
@@ -2943,7 +2944,7 @@ hr {
   box-shadow: 0px 1px 2px 0px rgba(147, 147, 147, 0.1);
 }
 .cs_gescout_show.cs_type_2 {
-  background-color: var(--purple-color);
+  background-color: var(--green-color);
 }
 .cs_gescout_show hr {
   display: none;
@@ -2992,13 +2993,13 @@ hr {
     color: var(--accent-color);
   }
   .cs_site_header.cs_style_1.cs_type_1 .cs_nav_list a::before {
-    background-color: var(--purple-color);
+    background-color: var(--green-color);
   }
   .cs_site_header.cs_style_1.cs_type_2 .cs_nav_list a:hover {
     color: var(--white-color);
   }
   .cs_site_header.cs_style_1.cs_type_2 .menu-item-has-children ul a:hover {
-    color: var(--purple-color);
+    color: var(--green-color);
   }
   .cs_nav {
     display: flex;
@@ -3215,7 +3216,7 @@ hr {
     transform: translateY(-32px);
   }
   .cs_site_header.cs_style_1.cs_type_2 .cs_nav_list {
-    background-color: var(--purple-color);
+    background-color: var(--green-color);
     color: var(--white-color);
   }
   /*Mobile Menu Button*/
@@ -3304,7 +3305,7 @@ hr {
   margin-bottom: 5px;
 }
 .cs_footer.cs_style_1 .cs_footer_medu a:hover {
-  color: var(--purple-color);
+  color: var(--green-color);
 }
 .cs_footer.cs_style_1 .cs_text_widget {
   max-width: 452px;
@@ -3326,7 +3327,7 @@ hr {
 }
 .cs_footer.cs_style_1 .cs_btns_group .cs_btn.cs_style_2:hover {
   color: var(--white-color);
-  background-color: var(--purple-color);
+  background-color: var(--green-color);
 }
 .cs_footer.cs_style_1 .cs_btns_group .cs_btn.cs_style_2:hover h3 {
   color: var(--white-color);
@@ -3471,7 +3472,7 @@ hr {
   padding: 8px 20px 8px 39px;
 }
 .cs_sidebar.cs_style_1 .cs_sidebar_widget .cs_form_field:focus {
-  border-color: var(--purple-color);
+  border-color: var(--green-color);
 }
 .cs_sidebar.cs_style_1 .cs_sidebar_widget .cs_search_icon {
   position: absolute;
@@ -3486,7 +3487,7 @@ hr {
   margin-bottom: 0;
 }
 .cs_sidebar.cs_style_1 .cs_category_list li a:hover {
-  color: var(--purple-color);
+  color: var(--green-color);
 }
 .cs_sidebar.cs_style_1 .cs_latestpost_list li {
   margin-bottom: 18px;
@@ -3495,7 +3496,7 @@ hr {
   margin-bottom: 0;
 }
 .cs_sidebar.cs_style_1 .cs_latestpost_list li a:hover {
-  color: var(--purple-color);
+  color: var(--green-color);
 }
 
 .cs_tags {
@@ -3509,8 +3510,8 @@ hr {
   border: 1px solid var(--body-color);
 }
 .cs_tags .cs_tag_link:hover {
-  background-color: var(--purple-color);
-  border-color: var(--purple-color);
+  background-color: var(--green-color);
+  border-color: var(--green-color);
   color: var(--white-color);
 }
 
@@ -4233,7 +4234,7 @@ hr {
 .cs_card.cs_style_1 .cs_shadow {
   width: 81px;
   height: 81px;
-  background-color: var(--purple-color);
+  background-color: var(--green-color);
   filter: blur(100px);
   top: 140px;
   right: 40px;
@@ -4297,7 +4298,7 @@ hr {
 .cs_card.cs_style_1.cs_type_3 .cs_blob_1 {
   width: 107px;
   height: 107px;
-  background-color: var(--purple-color);
+  background-color: var(--green-color);
   filter: blur(90px);
   top: 22%;
   right: 4%;
@@ -4529,7 +4530,7 @@ hr {
   transition: all 0.3s ease;
 }
 .cs_iconbox.cs_style_1 .cs_iconbox_btn:hover {
-  color: var(--purple-color);
+  color: var(--green-color);
 }
 .cs_iconbox.cs_style_1 .cs_iconbox_btn:hover .cs_btn_icon i {
   transform: translatex(30px);
@@ -4591,7 +4592,7 @@ hr {
   transform: translate(-8px, 12px);
 }
 .cs_iconbox.cs_style_2 .cs_iconbox_icon.cs_purple_color::before {
-  background-color: var(--purple-color);
+  background-color: var(--green-color);
 }
 .cs_iconbox.cs_style_2.cs_type_1 {
   border: 1px solid #252D32;
@@ -4662,7 +4663,7 @@ hr {
 }
 .cs_iconbox.cs_style_4:nth-child(2) .cs_iconbox_icon {
   background-color: #6DE8F2;
-  color: var(--purple-color);
+  color: var(--green-color);
 }
 .cs_iconbox.cs_style_4:nth-child(3) .cs_iconbox_icon {
   background-color: #6DF2A2;
@@ -4749,7 +4750,7 @@ hr {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color: var(--purple-color);
+  background-color: var(--green-color);
   transition: all 0.3s ease;
   opacity: 0.1;
   position: absolute;
@@ -4859,13 +4860,13 @@ hr {
   box-shadow: 0px 0px 20px 5px rgba(216, 216, 216, 0.4);
 }
 .cs_pricing_table.cs_style_1:hover .cs_pricing_btn, .cs_pricing_table.cs_style_1.active .cs_pricing_btn {
-  background-color: var(--purple-color);
+  background-color: var(--green-color);
   color: var(--white-color);
-  border-color: var(--purple-color);
+  border-color: var(--green-color);
 }
 .cs_pricing_table.cs_style_1:hover .cs_pricing_btn:hover, .cs_pricing_table.cs_style_1.active .cs_pricing_btn:hover {
   background-color: var(--white-color);
-  color: var(--purple-color);
+  color: var(--green-color);
 }
 .cs_pricing_table.cs_style_1:hover.cs_type_1, .cs_pricing_table.cs_style_1.active.cs_type_1 {
   box-shadow: none;
@@ -4876,14 +4877,14 @@ hr {
   transform: scaleY(1.05);
 }
 .cs_pricing_table.cs_style_1:hover.cs_type_3, .cs_pricing_table.cs_style_1.active.cs_type_3 {
-  background-color: var(--purple-color);
+  background-color: var(--green-color);
 }
 .cs_pricing_table.cs_style_1:hover.cs_type_3 .cs_pricing_btn, .cs_pricing_table.cs_style_1.active.cs_type_3 .cs_pricing_btn {
   color: var(--heading-color);
   background-color: var(--white-color);
 }
 .cs_pricing_table.cs_style_1:hover.cs_type_3 .cs_pricing_btn:hover, .cs_pricing_table.cs_style_1.active.cs_type_3 .cs_pricing_btn:hover {
-  color: var(--purple-color);
+  color: var(--green-color);
 }
 .cs_pricing_table.cs_style_1:hover.cs_type_3 li,
 .cs_pricing_table.cs_style_1:hover.cs_type_3 h2,
@@ -4989,7 +4990,7 @@ Pricing controller
   height: 25px;
   width: 25px;
   border-radius: 50%;
-  background-color: var(--purple-color);
+  background-color: var(--green-color);
   position: absolute;
   top: 50%;
   left: 30px;
@@ -5167,7 +5168,7 @@ Pricing controller
 .cs_cta.cs_style_1 .cs_ellipse_1 {
   width: 407px;
   height: 399px;
-  border: 7px solid var(--purple-color);
+  border: 7px solid var(--green-color);
   opacity: 0.8;
   right: -200px;
   bottom: -135px;
@@ -5602,7 +5603,7 @@ Pricing controller
   border-color: var(--body-color);
 }
 .cs_register_form .cs_form_field:focus {
-  border-color: var(--purple-color);
+  border-color: var(--green-color);
 }
 .cs_register_form i {
   position: absolute;
@@ -5634,8 +5635,8 @@ Pricing controller
   margin: 7px 10px 0 0;
 }
 .cs_register_form .form-check-input:checked {
-  border: var(--purple-color);
-  background-color: var(--purple-color);
+  border: var(--green-color);
+  background-color: var(--green-color);
 }
 .cs_register_form .form-check-input:focus {
   border-color: var(--heading-color);
@@ -5647,7 +5648,7 @@ Pricing controller
   flex-wrap: wrap;
 }
 .cs_register_form .cs_login_meta a:hover {
-  color: var(--purple-color);
+  color: var(--green-color);
 }
 
 .cs_social_login .cs_social_links {
@@ -5667,7 +5668,7 @@ Pricing controller
   color: var(--white-color);
 }
 .cs_social_login p a:hover {
-  color: var(--purple-color);
+  color: var(--green-color);
 }
 
 .cs_register_shape_1,
@@ -5758,7 +5759,7 @@ Pricing controller
   flex: 1;
 }
 .cs_post.cs_style_1 .cs_post_title:hover a {
-  color: var(--purple-color);
+  color: var(--green-color);
 }
 .cs_post.cs_style_1 .cs_post_meta_wrapper {
   display: flex;
@@ -5830,7 +5831,7 @@ Pricing controller
   text-overflow: ellipsis;
 }
 .cs_post.cs_style_2 .cs_post_content a:hover {
-  color: var(--purple-color);
+  color: var(--green-color);
 }
 @media (max-width: 767px) {
   .cs_post.cs_style_2 .cs_post_content {
@@ -5908,7 +5909,7 @@ Pricing controller
   content: "";
   width: 5px;
   height: 100%;
-  background-color: var(--purple-color);
+  background-color: var(--green-color);
   border-radius: 10px;
   position: absolute;
   top: 0;
@@ -5938,7 +5939,7 @@ Pricing controller
   gap: 8px;
 }
 .cs_post_details button:hover {
-  color: var(--purple-color);
+  color: var(--green-color);
 }
 .cs_post_details ul li {
   list-style: disc;
@@ -5968,7 +5969,7 @@ Pricing controller
   gap: 15px 28px;
 }
 .cs_post_details .cs_post_shares a:hover {
-  color: var(--purple-color);
+  color: var(--green-color);
 }
 .cs_post_details .cs_post_shares .cs_post_tags a {
   margin-right: 10px;
@@ -6024,7 +6025,7 @@ Pricing controller
   border-color: var(--body-color);
 }
 .cs_comment_form .cs_form_field:focus {
-  border-color: var(--purple-color);
+  border-color: var(--green-color);
 }
 .cs_comment_form label {
   color: var(--body-color);

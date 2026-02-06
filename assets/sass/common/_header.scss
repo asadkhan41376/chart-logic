@@ -105,7 +105,7 @@
   }
 
   &.cs_type_2 {
-    background-color: var(--purple-color);
+    background-color: var(--green-color);
   }
 
   hr {
@@ -170,7 +170,7 @@
         }
 
         &::before {
-          background-color: var(--purple-color);
+          background-color: var(--green-color);
         }
       }
     }
@@ -183,7 +183,7 @@
       }
 
       .menu-item-has-children ul a:hover {
-        color: var(--purple-color);
+        color: var(--green-color);
       }
     }
   }
@@ -470,7 +470,7 @@
 
   .cs_site_header.cs_style_1 {
     &.cs_type_2 .cs_nav_list {
-      background-color: var(--purple-color);
+      background-color: var(--green-color);
       color: var(--white-color);
     }
   }

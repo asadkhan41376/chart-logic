@@ -26,7 +26,7 @@
       padding: 8px 20px 8px 39px;
 
       &:focus {
-        border-color: var(--purple-color);
+        border-color: var(--green-color);
       }
     }
 
@@ -46,7 +46,7 @@
     }
 
     a:hover {
-      color: var(--purple-color);
+      color: var(--green-color);
     }
   }
 
@@ -58,7 +58,7 @@
     }
 
     a:hover {
-      color: var(--purple-color);
+      color: var(--green-color);
     }
   }
 }
@@ -74,8 +74,8 @@
     border: 1px solid var(--body-color);
 
     &:hover {
-      background-color: var(--purple-color);
-      border-color: var(--purple-color);
+      background-color: var(--green-color);
+      border-color: var(--green-color);
       color: var(--white-color);
     }
   }

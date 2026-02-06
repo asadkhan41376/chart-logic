@@ -35,15 +35,15 @@
 
   &:after {
     border-color: transparent;
-    border-top-color: var(--purple-color);
-    border-bottom-color: var(--purple-color);
+    border-top-color: var(--green-color);
+    border-bottom-color: var(--green-color);
     opacity: 0.8;
     animation: spin 1s ease-in-out infinite;
     z-index: 2;
   }
 
   &:before {
-    border-color: var(--purple-color);
+    border-color: var(--green-color);
     opacity: 0.2;
   }
 
@@ -51,7 +51,7 @@
     display: inline-block;
     width: 50px;
     height: 50px;
-    background-color: var(--purple-color);
+    background-color: var(--green-color);
     border-radius: 50%;
     position: absolute;
     left: 50%;

@@ -203,7 +203,7 @@
 }
 
 .cs_purple_color {
-  color: var(--purple-color);
+  color: var(--green-color);
 }
 
 .cs_accent_color {
@@ -219,7 +219,7 @@
 }
 
 .cs_purple_bg {
-  background-color: var(--purple-color);
+  background-color: var(--green-color);
 }
 
 .cs_body_bg {
@@ -543,7 +543,7 @@ hr {
 
   &.cs_purple_hover {
     &::before {
-      background-color: var(--purple-color);
+      background-color: var(--green-color);
     }
   }
 
@@ -696,7 +696,7 @@ hr {
     }
 
     &:hover {
-      color: var(--purple-color);
+      color: var(--green-color);
     }
   }
 }

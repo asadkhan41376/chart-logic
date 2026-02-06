@@ -24,7 +24,7 @@
   .cs_ellipse_1 {
     width: 407px;
     height: 399px;
-    border: 7px solid var(--purple-color);
+    border: 7px solid var(--green-color);
     opacity: 0.8;
     right: -200px;
     bottom: -135px;
@@ -549,7 +549,7 @@
     border-color: var(--body-color);
 
     &:focus {
-      border-color: var(--purple-color);
+      border-color: var(--green-color);
     }
   }
 
@@ -587,8 +587,8 @@
     margin: 7px 10px 0 0;
 
     &:checked {
-      border: var(--purple-color);
-      background-color: var(--purple-color);
+      border: var(--green-color);
+      background-color: var(--green-color);
     }
 
     &:focus {
@@ -603,7 +603,7 @@
     flex-wrap: wrap;
 
     a:hover {
-      color: var(--purple-color);
+      color: var(--green-color);
     }
   }
 }
@@ -630,7 +630,7 @@
   }
 
   p a:hover {
-    color: var(--purple-color);
+    color: var(--green-color);
   }
 }
 
