@@ -1548,7 +1548,8 @@ textarea {
 }
 @media (max-width: 575px) {
   .cs_fs_18 {
-    font-size: 16px;
+    font-size: 18px;
+    text-wrap: wrap;
   }
 }
 
@@ -3998,8 +3999,8 @@ hr {
 /* management  */
 
 .cs_hero.cs_style_1 .cs_text_Management_wrap {
-  top: 5%;
-  right: 92%;
+  top: -12%;
+  right: 88%;
 }
 
 .cs_text_Management_wrap {
@@ -4031,27 +4032,12 @@ hr {
   left: 0;
 }
 
-/* Personalisation */
-.cs_hero.cs_style_1 .cs_text_Personalisation_wrap {
-  bottom: -20%;
-  right: 75%;
-}
-.cs_text_Personalisation_wrap {
-  padding: 0 0 40px 80px;
-  animation: slide-right 25s linear infinite;
-}
-
-.cs_text_Personalisation_wrap .cs_arrow {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
 
 
 /* business */
 
 .cs_hero.cs_style_1 .cs_text_Business_wrap {
-  top: 50%;
+  top: 10%;
   left: 95%;
 }
 .cs_text_Business_wrap {
@@ -4084,21 +4070,42 @@ hr {
 }
 
 
-/* AI Assistant */
-.cs_hero.cs_style_1 .cs_aiassistant_wrap {
-  top: 00%;
-  left: 95%;
+
+
+@media (max-width:768px) {
+
+
+
+/* management  */
+
+.cs_hero.cs_style_1 .cs_text_Management_wrap {
+  top: -30%;
+  right: 70%;
 }
-.cs_aiassistant_wrap {
-  padding: 0 80px 40px 0;
-  animation: slide-left 30s linear infinite;
+
+  /* Billing  */
+
+.cs_hero.cs_style_1 .cs_text_Billing_wrap {
+  top: 100%;
+  right:65%;
 }
-.cs_aiassistant_wrap .cs_arrow {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  transform: rotateY(180deg);
+
+/* business */
+
+.cs_hero.cs_style_1 .cs_text_Business_wrap {
+  top: -20%;
+  left: 90%;
 }
+
+/* Integrations */
+
+.cs_hero.cs_style_1 .cs_text_Integrations_wrap {
+  bottom:-40%;
+  left: 80%;
+}
+}
+
+
 
 @keyframes indication-arrow {
   50% {
@@ -4642,7 +4649,8 @@ hr {
 }
 
 .cs_iconbox.cs_style_3 {
-  padding: 13px 20px;
+  min-width: 200px;
+  padding: 10px 15px;
   display: inline-flex;
   align-items: center;
   gap: 5px;
